@@ -12,52 +12,55 @@ endif
 
 let colors_name = "minimal"
 
-hi Normal       cterm=NONE          ctermbg=232     ctermfg=250
-hi SpecialKey   cterm=bold                          ctermfg=NONE
-hi IncSearch    cterm=NONE ctermbg=232 ctermfg=202
-hi Search       cterm=NONE ctermbg=232 ctermfg=202
-hi MoreMsg      cterm=bold                          ctermfg=NONE
-hi ModeMsg      cterm=bold                          ctermfg=NONE
-hi LineNr       cterm=NONE          ctermbg=232    ctermfg=233
-hi StatusLine   cterm=bold ctermbg=233          ctermfg=040
-hi StatusLineNC cterm=NONE ctermbg=233           ctermfg=NONE
-hi VertSplit    cterm=NONE ctermbg=233           ctermfg=NONE
-hi Title        cterm=bold                          ctermfg=NONE
-hi Visual       cterm=NONE                       ctermfg=NONE
-hi VisualNOS    cterm=bold                          ctermfg=NONE
-hi WarningMsg   cterm=bold ctermbg=232 ctermfg=214
-hi WildMenu     cterm=NONE ctermbg=235 ctermfg=015
-hi Pmenu        cterm=NONE ctermbg=235 ctermfg=015
-hi PmenuSel     cterm=NONE ctermbg=235 ctermfg=202
-hi Folded       cterm=standout                      ctermfg=NONE
-hi FoldColumn   cterm=standout                      ctermfg=NONE
-hi DiffAdd      cterm=NONE ctermbg=233 ctermfg=040
-hi DiffChange   cterm=NONE ctermbg=233 ctermfg=208
-hi DiffDelete   cterm=NONE ctermbg=052 ctermfg=052
-hi DiffText     cterm=NONE ctermbg=NONE ctermfg=NONE
-hi Type         cterm=None          ctermbg=NONE    ctermfg=NONE
-hi Keyword      cterm=None          ctermbg=NONE    ctermfg=NONE
-hi Number       cterm=None          ctermbg=NONE    ctermfg=NONE
-hi Char         cterm=None          ctermbg=NONE    ctermfg=NONE
-hi Format       cterm=None          ctermbg=NONE    ctermfg=NONE
-hi Special      cterm=underline     ctermbg=NONE    ctermfg=NONE
-hi Constant     cterm=None          ctermbg=NONE    ctermfg=NONE
-hi PreProc      cterm=None                          ctermfg=NONE
-hi Directive    cterm=NONE          ctermbg=NONE    ctermfg=NONE
-hi Conditional  cterm=NONE          ctermbg=NONE    ctermfg=NONE
-hi Comment      cterm=NONE          ctermbg=NONE    ctermfg=243
-hi Func         cterm=None          ctermbg=232     ctermfg=250
-hi Identifier   cterm=NONE          ctermbg=NONE    ctermfg=NONE
-hi Statement    cterm=NONE          ctermbg=NONE    ctermfg=NONE
-hi Ignore       cterm=bold                          ctermfg=NONE
-hi String       cterm=underline                     ctermfg=NONE
-hi ErrorMsg     cterm=NONE       ctermbg=232      ctermfg=202
-hi Error        cterm=NONE       ctermbg=232      ctermfg=202
-hi Todo         cterm=bold,standout ctermbg=0       ctermfg=11
-hi MatchParen   cterm=bold          ctermbg=250     ctermfg=NONE
-hi ColorColumn                      ctermbg=255
-hi SpellBad   cterm=NONE ctermbg=232 ctermfg=052
-hi SpellCap   cterm=NONE ctermbg=232 ctermfg=052
-hi SpellRare  cterm=NONE ctermbg=232 ctermfg=052
-hi SpellLocal cterm=NONE ctermbg=232 ctermfg=052
-hi NonText    cterm=NONE ctermbg=232 ctermfg=233
+hi Normal       cterm=NONE ctermbg=232  ctermfg=250     gui=NONE guibg=#080808  guifg=#bcbcbc
+hi SpecialKey   cterm=BOLD              ctermfg=NONE    gui=BOLD                guifg=NONE
+hi IncSearch    cterm=BOLD ctermbg=130  ctermfg=232     gui=NONE guibg=#af5f00 guifg=#080808
+hi Search       cterm=NONE ctermbg=232  ctermfg=130     gui=NONE guibg=#080808  guifg=#af5f00
+hi MoreMsg      cterm=BOLD              ctermfg=NONE    gui=BOLD                guifg=NONE
+hi ModeMsg      cterm=BOLD              ctermfg=NONE    gui=BOLD                guifg=NONE
+hi LineNr       cterm=NONE ctermbg=232  ctermfg=233     gui=NONE guibg=#080808  guifg=#121212
+hi StatusLine   cterm=BOLD ctermbg=233  ctermfg=040     gui=BOLD guibg=#121212  guifg=#00d700
+hi StatusLineNC cterm=NONE ctermbg=233  ctermfg=240     gui=NONE guibg=#121212  guifg=#585858
+hi VertSplit    cterm=NONE ctermbg=233  ctermfg=NONE    gui=NONE guibg=#121212  guifg=NONE
+hi Title        cterm=BOLD              ctermfg=NONE    gui=BOLD                guifg=NONE
+hi Visual       cterm=NONE ctermbg=235  ctermfg=NONE    gui=NONE guibg=#262626  guifg=NONE
+hi VisualNOS    cterm=BOLD              ctermfg=NONE    gui=BOLD                guifg=NONE
+hi WarningMsg   cterm=NONE ctermbg=232  ctermfg=214     gui=NONE guibg=#080808  guifg=#ffaf00
+hi WildMenu     cterm=NONE ctermbg=235  ctermfg=015     gui=NONE guibg=#262626  guifg=#ffffff
+hi Pmenu        cterm=NONE ctermbg=235  ctermfg=015     gui=NONE guibg=#262626  guifg=#ffffff
+hi PmenuSel     cterm=NONE ctermbg=235  ctermfg=202     gui=NONE guibg=#262626  guifg=#ff5f00
+hi PmenuSbar    cterm=NONE ctermbg=232  ctermfg=250     gui=NONE guibg=#080808  guifg=#bcbcbc
+hi Folded       cterm=NONE ctermbg=233  ctermfg=234     gui=NONE guibg=#121212  guifg=#1c1c1c
+hi FoldColumn   cterm=NONE ctermbg=233  ctermfg=234     gui=NONE guibg=#121212  guifg=#1c1c1c
+hi DiffAdd      cterm=BOLD ctermbg=233  ctermfg=040     gui=BOLD guibg=#121212  guifg=#00d700
+hi DiffChange   cterm=BOLD ctermbg=208  ctermfg=232     gui=BOLD guibg=#ff8700  guifg=#080808
+hi DiffDelete   cterm=NONE ctermbg=052  ctermfg=052     gui=NONE guibg=#5f0000  guifg=#5f0000
+hi DiffText     cterm=BOLD ctermbg=202  ctermfg=232     gui=BOLD guibg=#ff5f00  guifg=#080808
+hi Type         cterm=NONE ctermbg=NONE ctermfg=NONE    gui=NONE guibg=NONE     guifg=NONE
+hi Keyword      cterm=NONE ctermbg=NONE ctermfg=NONE    gui=NONE guibg=NONE     guifg=NONE
+hi Number       cterm=NONE ctermbg=NONE ctermfg=NONE    gui=NONE guibg=NONE     guifg=NONE
+hi Char         cterm=NONE ctermbg=NONE ctermfg=NONE    gui=NONE guibg=NONE     guifg=NONE
+hi Format       cterm=NONE ctermbg=NONE ctermfg=NONE    gui=NONE guibg=NONE     guifg=NONE
+hi Special      cterm=NONE ctermbg=NONE ctermfg=NONE    gui=NONE guibg=NONE     guifg=NONE
+hi Constant     cterm=NONE ctermbg=NONE ctermfg=NONE    gui=NONE guibg=NONE     guifg=NONE
+hi PreProc      cterm=NONE              ctermfg=NONE    gui=NONE                guifg=NONE
+hi Directive    cterm=NONE ctermbg=NONE ctermfg=NONE    gui=NONE guibg=NONE     guifg=NONE
+hi Conditional  cterm=NONE ctermbg=NONE ctermfg=NONE    gui=NONE guibg=NONE     guifg=NONE
+hi Comment      cterm=NONE ctermbg=NONE ctermfg=240     gui=NONE guibg=NONE     guifg=#585858
+hi Func         cterm=NONE ctermbg=232  ctermfg=250     gui=NONE guibg=#080808  guifg=#bcbcbc
+hi Identifier   cterm=NONE ctermbg=NONE ctermfg=NONE    gui=NONE guibg=NONE     guifg=NONE
+hi Statement    cterm=BOLD ctermbg=NONE ctermfg=NONE    gui=BOLD guibg=NONE     guifg=NONE
+hi Ignore       cterm=NONE ctermfg=NONE                 gui=NONE                guifg=NONE
+hi String       cterm=NONE ctermbg=232  ctermfg=025     gui=NONE guibg=#080808  guifg=#005faf
+hi ErrorMsg     cterm=NONE ctermbg=232  ctermfg=202     gui=NONE guibg=#080808  guifg=#ff5f00
+hi Error        cterm=NONE ctermbg=232  ctermfg=202     gui=NONE guibg=#080808  guifg=#ff5f00
+hi Todo         cterm=BOLD ctermbg=233  ctermfg=011     gui=BOLD guibg=#121212  guifg=#ffff00
+hi MatchParen   cterm=BOLD ctermbg=250  ctermfg=232     gui=BOLD guibg=#bcbcbc  guifg=NONE
+hi ColorColumn             ctermbg=255                           guibg=#eeeeee
+hi SpellBad     cterm=NONE ctermbg=232  ctermfg=088     gui=NONE guibg=#080808  guifg=#870000
+hi SpellCap     cterm=NONE ctermbg=232  ctermfg=052     gui=NONE guibg=#080808  guifg=#5f0000
+hi SpellRare    cterm=NONE ctermbg=232  ctermfg=052     gui=NONE guibg=#080808  guifg=#5f0000
+hi SpellLocal   cterm=NONE ctermbg=232  ctermfg=052     gui=NONE guibg=#080808  guifg=#5f0000
+hi NonText      cterm=NONE ctermbg=232  ctermfg=233     gui=NONE guibg=#080808  guifg=#121212
+hi SignColumn   cterm=NONE ctermbg=233  ctermfg=234     gui=NONE guibg=#121212  guifg=#1c1c1c
+hi CursorLine   cterm=BOLD ctermbg=233  ctermfg=NONE    gui=BOLD guibg=#121212  guifg=NONE
