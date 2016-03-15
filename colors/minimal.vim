@@ -57,10 +57,10 @@ hi Error        cterm=NONE ctermbg=232  ctermfg=202     gui=NONE    guibg=#08080
 hi Todo         cterm=BOLD ctermbg=233  ctermfg=011     gui=BOLD    guibg=#121212  guifg=#ffff00
 hi MatchParen   cterm=BOLD ctermbg=250  ctermfg=232     gui=BOLD    guibg=#bcbcbc  guifg=NONE
 hi ColorColumn             ctermbg=255                              guibg=#eeeeee
-hi SpellBad     cterm=NONE ctermbg=232  ctermfg=088     gui=NONE    guibg=#080808  guifg=#870000
-hi SpellCap     cterm=NONE ctermbg=232  ctermfg=052     gui=NONE    guibg=#080808  guifg=#5f0000
-hi SpellRare    cterm=NONE ctermbg=232  ctermfg=052     gui=NONE    guibg=#080808  guifg=#5f0000
-hi SpellLocal   cterm=NONE ctermbg=232  ctermfg=052     gui=NONE    guibg=#080808  guifg=#5f0000
+hi SpellBad     cterm=NONE ctermbg=052  ctermfg=250     gui=NONE    guibg=#080808  guifg=#870000
+hi SpellCap     cterm=NONE ctermbg=052  ctermfg=250     gui=NONE    guibg=#080808  guifg=#5f0000
+hi SpellRare    cterm=NONE ctermbg=052  ctermfg=250     gui=NONE    guibg=#080808  guifg=#5f0000
+hi SpellLocal   cterm=NONE ctermbg=052  ctermfg=250     gui=NONE    guibg=#080808  guifg=#5f0000
 hi NonText      cterm=NONE ctermbg=232  ctermfg=233     gui=NONE    guibg=#080808  guifg=#121212
 hi SignColumn   cterm=NONE ctermbg=233  ctermfg=234     gui=NONE    guibg=#121212  guifg=#1c1c1c
 hi CursorLine   cterm=BOLD ctermbg=233  ctermfg=NONE    gui=BOLD    guibg=#121212  guifg=NONE
