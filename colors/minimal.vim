@@ -12,7 +12,7 @@ endif
 
 let colors_name = "minimal"
 
-hi Normal       cterm=NONE ctermbg=232  ctermfg=250     gui=NONE    guibg=#080808  guifg=#bcbcbc
+hi Normal       cterm=NONE ctermbg=232  ctermfg=251     gui=NONE    guibg=#080808  guifg=#c6c6c6
 hi SpecialKey   cterm=BOLD              ctermfg=NONE    gui=BOLD                   guifg=NONE
 hi IncSearch    cterm=BOLD ctermbg=130  ctermfg=232     gui=NONE    guibg=#af5f00  guifg=#080808
 hi Search       cterm=NONE ctermbg=226  ctermfg=232     gui=NONE    guibg=#ffff00  guifg=#080808
@@ -36,20 +36,22 @@ hi DiffAdd      cterm=BOLD ctermbg=233  ctermfg=040     gui=BOLD    guibg=#12121
 hi DiffChange   cterm=BOLD ctermbg=208  ctermfg=232     gui=BOLD    guibg=#ff8700  guifg=#080808
 hi DiffDelete   cterm=NONE ctermbg=052  ctermfg=052     gui=NONE    guibg=#5f0000  guifg=#5f0000
 hi DiffText     cterm=BOLD ctermbg=202  ctermfg=232     gui=BOLD    guibg=#ff5f00  guifg=#080808
-hi Type         cterm=NONE ctermbg=NONE ctermfg=NONE    gui=NONE    guibg=NONE     guifg=NONE
-hi Keyword      cterm=NONE ctermbg=NONE ctermfg=NONE    gui=NONE    guibg=NONE     guifg=NONE
-hi Number       cterm=NONE ctermbg=NONE ctermfg=NONE    gui=NONE    guibg=NONE     guifg=NONE
-hi Char         cterm=NONE ctermbg=NONE ctermfg=NONE    gui=NONE    guibg=NONE     guifg=NONE
-hi Format       cterm=NONE ctermbg=NONE ctermfg=NONE    gui=NONE    guibg=NONE     guifg=NONE
-hi Special      cterm=NONE ctermbg=NONE ctermfg=NONE    gui=NONE    guibg=NONE     guifg=NONE
-hi Constant     cterm=NONE ctermbg=NONE ctermfg=NONE    gui=NONE    guibg=NONE     guifg=NONE
-hi PreProc      cterm=NONE              ctermfg=NONE    gui=NONE                   guifg=NONE
-hi Directive    cterm=NONE ctermbg=NONE ctermfg=NONE    gui=NONE    guibg=NONE     guifg=NONE
-hi Conditional  cterm=NONE ctermbg=NONE ctermfg=NONE    gui=NONE    guibg=NONE     guifg=NONE
-hi Comment      cterm=NONE ctermbg=NONE ctermfg=240     gui=ITALIC  guibg=NONE     guifg=#585858
-hi Func         cterm=NONE ctermbg=232  ctermfg=250     gui=NONE    guibg=#080808  guifg=#bcbcbc
-hi Identifier   cterm=NONE ctermbg=NONE ctermfg=NONE    gui=NONE    guibg=NONE     guifg=NONE
-hi Statement    cterm=BOLD ctermbg=NONE ctermfg=NONE    gui=BOLD    guibg=NONE     guifg=NONE
+hi Type         cterm=NONE ctermbg=232  ctermfg=111     gui=BOLD    guibg=#080808  guifg=#87afff
+hi Keyword      cterm=NONE ctermbg=232  ctermfg=067     gui=BOLD    guibg=#080808  guifg=#5f87af
+" hi Number       cterm=NONE ctermbg=232  ctermfg=NONE    gui=NONE    guibg=#080808  guifg=NONE
+hi Char         cterm=NONE ctermbg=232  ctermfg=NONE    gui=NONE    guibg=#080808  guifg=NONE
+hi Format       cterm=NONE ctermbg=232  ctermfg=NONE    gui=NONE    guibg=#080808  guifg=NONE
+hi Special      cterm=NONE ctermbg=232  ctermfg=153     gui=NONE    guibg=#080808  guifg=#afd7ff
+hi Constant     cterm=NONE ctermbg=232  ctermfg=117     gui=NONE    guibg=#080808  guifg=#87d7ff
+hi Boolean      cterm=NONE ctermbg=232  ctermfg=117     gui=NONE    guibg=#080808  guifg=#87d7ff
+hi PreProc      cterm=NONE ctermbg=232  ctermfg=74      gui=NONE    guibg=#080808  guifg=#5fafd7
+hi Directive    cterm=NONE ctermbg=232  ctermfg=NONE    gui=NONE    guibg=#080808  guifg=NONE
+hi Comment      cterm=NONE ctermbg=232  ctermfg=240     gui=ITALIC  guibg=#080808  guifg=#585858
+hi Identifier   cterm=NONE ctermbg=232  ctermfg=117     gui=NONE    guibg=#080808  guifg=#87d7ff
+" hi Func         cterm=NONE ctermbg=232  ctermfg=250     gui=NONE    guibg=#080808  guifg=#bcbcbc
+hi Statement    cterm=NONE ctermbg=232  ctermfg=067     gui=BOLD    guibg=#080808  guifg=#5f87af
+" hi Conditional  cterm=NONE ctermbg=232  ctermfg=NONE    gui=NONE    guibg=#080808  guifg=NONE
+" hi Label        cterm=NONE ctermbg=232  ctermfg=NONE    gui=BOLD    guibg=#080808  guifg=NONE
 hi Ignore       cterm=NONE ctermfg=NONE                 gui=NONE                   guifg=NONE
 hi String       cterm=NONE ctermbg=232  ctermfg=025     gui=NONE    guibg=#080808  guifg=#005faf
 hi ErrorMsg     cterm=NONE ctermbg=232  ctermfg=202     gui=NONE    guibg=#080808  guifg=#ff5f00
