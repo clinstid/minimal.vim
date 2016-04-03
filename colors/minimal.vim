@@ -3,14 +3,14 @@
 "
 " Minimal colorscheme with some flash for non-code elements
 "
-set background=dark
-
 highlight clear
 if exists("syntax_on")
     syntax reset
 endif
 
 let colors_name = "minimal"
+
+set background=dark
 
 hi Normal       cterm=NONE ctermbg=232  ctermfg=251     gui=NONE    guibg=#080808  guifg=#c6c6c6
 hi SpecialKey   cterm=BOLD              ctermfg=NONE    gui=BOLD                   guifg=NONE
