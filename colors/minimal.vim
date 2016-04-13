@@ -66,3 +66,4 @@ hi SpellLocal   cterm=NONE ctermbg=052  ctermfg=250     gui=NONE    guibg=#08080
 hi NonText      cterm=NONE ctermbg=232  ctermfg=233     gui=NONE    guibg=#080808  guifg=#121212
 hi SignColumn   cterm=NONE ctermbg=233  ctermfg=234     gui=NONE    guibg=#121212  guifg=#1c1c1c
 hi CursorLine   cterm=BOLD ctermbg=233  ctermfg=NONE    gui=BOLD    guibg=#121212  guifg=NONE
+hi Cursor                                                           guibg=orange   guifg=black
