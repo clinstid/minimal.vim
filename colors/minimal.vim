@@ -68,3 +68,6 @@ hi SignColumn   cterm=NONE ctermbg=233  ctermfg=234     gui=NONE    guibg=#12121
 hi CursorLine   cterm=NONE ctermbg=233  ctermfg=NONE    gui=NONE    guibg=#121212  guifg=NONE
 hi CursorLineNR cterm=NONE ctermbg=233  ctermfg=NONE    gui=NONE    guibg=#121212  guifg=NONE
 hi Cursor                                                           guibg=orange   guifg=black
+hi TabLineFill  cterm=NONE ctermbg=235  ctermfg=232     gui=NONE    guibg=#262626  guifg=#080808
+hi TabLine      cterm=NONE ctermbg=235  ctermfg=232     gui=NONE    guibg=#262626  guifg=#c6c6c6
+hi TabLineSel   cterm=NONE ctermbg=235  ctermfg=202     gui=NONE    guibg=#262626  guifg=#ff5f00
