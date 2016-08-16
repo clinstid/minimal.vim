@@ -19,7 +19,7 @@ hi Search       cterm=NONE ctermbg=226  ctermfg=232     gui=NONE    guibg=#ffff0
 hi MoreMsg      cterm=BOLD              ctermfg=NONE    gui=BOLD                   guifg=NONE
 hi ModeMsg      cterm=BOLD              ctermfg=NONE    gui=BOLD                   guifg=NONE
 hi LineNr       cterm=NONE ctermbg=232  ctermfg=233     gui=NONE    guibg=#080808  guifg=#121212
-hi StatusLine   cterm=BOLD ctermbg=233  ctermfg=040     gui=BOLD    guibg=#121212  guifg=#00d700
+hi StatusLine   cterm=BOLD ctermbg=233  ctermfg=251     gui=BOLD    guibg=#121212  guifg=#c6c6c6
 hi StatusLineNC cterm=NONE ctermbg=233  ctermfg=240     gui=NONE    guibg=#121212  guifg=#585858
 hi VertSplit    cterm=NONE ctermbg=233  ctermfg=NONE    gui=NONE    guibg=#121212  guifg=NONE
 hi Title        cterm=BOLD              ctermfg=NONE    gui=BOLD                   guifg=NONE
